@@ -5,7 +5,7 @@ terraform {
     bucket         = "bdn-s3"
     
     # The AWS region where the S3 bucket and DynamoDB table are located.
-    region         = "us-east-2"
+    region         = "us-east-1"
     
     # The key (path) within the S3 bucket for storing the state file.
     key            = "three-tier-devdecops-project/jenkins-server-terraform/terraform.tfstate"
